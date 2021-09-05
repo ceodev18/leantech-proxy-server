@@ -235,7 +235,7 @@ public class Proxy implements Runnable {
         String command;
         while (running) {
             System.out.println(
-                    "Enter new site to block, or type \"blocked\" to see blocked sites, \"cached\" to see cached sites, or \"close\" to close server.");
+                    "Type 'close' to close server.");
             command = scanner.nextLine();
             if (command.toLowerCase().equals("blocked")) {
                 System.out.println("\nCurrently Blocked Sites");
